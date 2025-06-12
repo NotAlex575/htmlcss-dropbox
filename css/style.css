@@ -12,10 +12,22 @@ div img{
     object-fit: contain;
 }
 
+.text-center{
+    text-align: center;
+}
+
+.text-start{
+    text-align:start;
+}
+
 /* BACKGROUND COLOR */
 
 .bg-red{
     background-color: red;
+}
+
+.bg-white{
+    background-color: white;
 }
 
 .bg-blue{
@@ -30,6 +42,11 @@ div img{
     background-color: black;
 }
 
+/*COLOR*/
+
+.c-gray{
+    color: gray;
+}
 
 /* WIDTH */
 
@@ -115,6 +132,10 @@ div img{
 
 /* MARGIN */
 
+.margin-0-30px{
+    margin: 0 30px;
+}
+
 .margin-top-15px{
     margin-top: 15px;
 }
@@ -127,6 +148,9 @@ div img{
     margin-top: 35px;
 }
 
+.margin-bottom-35px{
+    margin-bottom: 35px;
+}
 
 .margin-right-15px{
     margin-right: 15px;
@@ -149,6 +173,8 @@ div img{
 
 
 /* PADDING */
+
+
 
 .padding-top-50px{
     padding-top: 50px;
@@ -309,5 +335,9 @@ h1{
 .circle:hover{
     color: #4D5AFE;
     font-size:larger;
+}
+
+li{
+    list-style: none;
 }
 
