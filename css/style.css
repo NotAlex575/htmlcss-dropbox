@@ -29,6 +29,14 @@
     width: 20%;
 }
 
+.w-40per{
+    width: 40%;
+}
+
+.w-45per{
+    width: 45%;
+}
+
 .w-50per{
     width: 50%;
 }
@@ -46,8 +54,12 @@
     margin-right: 15px;
 }
 
-.margin-left-15px{
-    margin-left: 15px;
+.margin-left-20px{
+    margin-left: 20px;
+}
+
+.margin-right-20px{
+    margin-right: 20px;
 }
 
 
@@ -83,7 +95,12 @@
 .menu{
     position: fixed;
     width: 100%;
-    height: 120px;
+    height: 80px;
     border: 2px solid black;
     z-index: 1;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
 }
