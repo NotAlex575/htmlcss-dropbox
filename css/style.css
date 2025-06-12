@@ -8,6 +8,10 @@
     border: 1px solid black;
 }
 
+div img{
+    object-fit: contain;
+}
+
 /* BACKGROUND COLOR */
 
 .bg-red{
@@ -65,11 +69,23 @@
     width: 80%;
 }
 
+.w-90per{
+    width: 90%;
+}
+
 
 /* HEIGHT */
 
+.h-4S0per{
+    height: 50%;
+}
+
 .h-50per{
     height: 50%;
+}
+
+.h-60per{
+    height: 60%;
 }
 
 .h-70per{
@@ -80,6 +96,11 @@
     height: 80%;
 }
 
+.h-90per{
+    height: 90%;
+}
+
+
 .h-100per{
     height: 100%;
 }
@@ -87,6 +108,10 @@
 /* MARGIN */
 
 .margin-top-15px{
+    margin-top: 15px;
+}
+
+.margin-top-25px{
     margin-top: 15px;
 }
 
@@ -102,11 +127,23 @@
     margin-right: 20px;
 }
 
+
+
 /* PADDING */
 
 .padding-top-50px{
     padding-top: 50px;
 }
+
+.padding-top-150px{
+    padding-top: 150px;
+}
+
+.padding-bottom-40px{
+    padding-bottom: 40px;
+}
+
+
 
 /* FLEX */
 
@@ -191,7 +228,6 @@ main{
 
 .freeTrialBox{
     width: 100%;
-    height: 450px;
     background-color: #B4D0EA;
 }
 
@@ -203,6 +239,27 @@ h1{
 }
 
 .container{
-    max-width: 1410px;
+    max-width: 1200px;
+    max-height: 600px;
     margin: 0 auto;
+}
+
+.buttonMainProvaGratuita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    background-color: #4D5AFE;
+}
+
+.buttonMainProvaGratuita:hover{
+    border: 1px solid black;
+    background-color: #6972f1;
+}
+
+.arrow{
+    font-size: 35px;
 }
