@@ -171,6 +171,10 @@ div img{
 
 /* MARGIN */
 
+.margin-0-10px{
+    margin: 0 10px;
+}
+
 .margin-0-30px{
     margin: 0 30px;
 }
@@ -365,7 +369,6 @@ h1{
 .containerBusiness{
     position:relative;
     height: 500px;
-    border: 1px solid black;
 }
 
 
