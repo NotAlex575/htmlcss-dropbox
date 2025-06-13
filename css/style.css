@@ -82,6 +82,10 @@ div img{
     width: 60%;
 }
 
+.w-65per{
+    width: 65%;
+}
+
 .w-70per{
     width: 70%;
 }
@@ -160,6 +164,10 @@ div img{
 
 .margin-top-10px{
     margin-top: 10px;
+}
+
+.margin-bottom-10px{
+    margin-bottom: 10px;
 }
 
 .margin-top-15px{
