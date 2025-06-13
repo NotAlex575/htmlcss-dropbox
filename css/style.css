@@ -180,7 +180,7 @@ div img{
 }
 
 .margin-0-80px{
-    margin: 0 80px;
+    margin: 0 280px;
 }
 
 .margin-30-0px{
@@ -440,3 +440,11 @@ li{
     list-style: none;
 }
 
+
+
+/*                      FOOTER                           */
+
+.containerFooter{
+    max-width: screen;
+    color: white;
+}
