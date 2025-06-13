@@ -151,7 +151,6 @@ div img{
     height: 90%;
 }
 
-
 .h-100per{
     height: 100%;
 }
@@ -160,6 +159,10 @@ div img{
 
 .margin-0-30px{
     margin: 0 30px;
+}
+
+.margin-30-0px{
+    margin: 30px 0;
 }
 
 .margin-top-10px{
@@ -200,6 +203,10 @@ div img{
 
 .margin-left-20px{
     margin-left: 20px;
+}
+
+.margin-left-70px{
+    margin-left: 70px;
 }
 
 
@@ -337,9 +344,7 @@ h1{
     height: 1000px;
 }
 
-.containerEnterprise{
-   
-    border: 1px solid black;
+.container960px{
     margin-top: 100px;
     min-width: 960px;
     margin: 20px auto;
