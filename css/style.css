@@ -50,6 +50,10 @@ div img{
 
 /* WIDTH */
 
+.w-960px{
+    max-width: 960px;
+}
+
 .w-300px{
     width: 300px;
 }
@@ -159,6 +163,10 @@ div img{
 
 .margin-0-30px{
     margin: 0 30px;
+}
+
+.margin-0-80px{
+    margin: 0 80px;
 }
 
 .margin-30-0px{
@@ -344,9 +352,14 @@ h1{
     height: 1000px;
 }
 
-.container960px{
-    margin-top: 100px;
-    min-width: 960px;
+.container-max-960px{
+    max-width: 960px;
+    margin: 20px auto;
+    margin-bottom: 30px;
+}
+
+.container-min-960px{
+    max-width: 960px;
     margin: 20px auto;
     margin-bottom: 30px;
 }
@@ -369,6 +382,18 @@ h1{
     cursor: pointer;
     color: white;
     background-color: #4D5AFE;
+}
+
+.buttonPartner{
+    text-align: center;
+    width: 220px;
+    height: 40px;
+    cursor: pointer;
+    color: black;
+}
+
+.buttonPartner:hover{
+    background-color: rgb(176, 176, 176);
 }
 
 .buttonMainProvaGratuita:hover{
